@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "tajawal", sans-serif;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1366px;
+margin: 0 auto;
+padding: 0 5rem;
+}
+nav .logo{
+display: flex;
+font-size: 2rem;
+align-items: center;
+}
+nav .logo i{
+color: #6e0aef;
+padding-left: 0.75rem;
+}
+nav .logo h3{
+font-family: "lalezar", cursive;
+}
+nav .nav-itens {
+display: flex;
+list-style-type: none;
+height: 10;
+}
+.nav-itens .nav-itens {
+
+    padding: 0 1rem;
+
+}
+nav .nav-link{
+
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color: #6e0aef;
+}
+
+
+
+.hero-section {
+
+background-color: #f8f7fc;
+
+}
+
+.hero-section{
+max-width: 1366px;
+height: 90vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 0 srem;
+}
+.hero-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section p{
+    color: rgb(29, 29, 29);
+    font-size: 1.4rem;
+}
+.hero-section .btn{
+width: 10rem;
+margin-top: 3rem;
+border-radius: 0.5rem;
+outline: none;
+border: none;
+padding: 0.75rem 1.5rem;
+background-color: #6e0aef;
+}
+.btn:hover {
+    background-color: #7d25f0;
+cursor: pointer;
+}
+.btn a {
+text-decoration: none;
+color: #ffffff;
+font-size: 1.4rem;
+}
+ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.nav-itens .submenu{
+
+    position: absolute;
+    top: 42px;
+    width: 220px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+    .nav-itens .submenu li a{
+color: #4e547e;
+text-decoration: none;
+    }
+ .nav-itens .submenu li a:hover{
+color: #6e0aef;
+ }
+ .nav-itens .submenu::before{
+content:"";
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom:6px solid #fff ;
+height: 0;
+width: 0;
+position: absolute;
+left: 30px;
+top: -6px;
+ }
+ .nav-itens .menu:hover .submenu{
+     display: block;
+ }
+}
+
+
+
+
+
+}

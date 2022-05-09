@@ -1,0 +1,25 @@
+Body {
+	Margin:0;
+	Padding:0;
+	Font-family:sans-serif;
+    background:linear-gradient(120deg,#2980b9,#8e44ad) ;
+	Text-align:center;
+padding-top: 5%;
+}
+h1 {
+    font-size: 50px;
+    font-family: serif;
+}
+.l{
+    font-size: 30px;
+}
+input{
+    font-size: 35px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+
+}
+.a:hover{
+    color: blue;
+
+}

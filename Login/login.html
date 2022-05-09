@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Login </title>
+</head>
+
+<link rel="stylesheet" href="login.css">
+
+<body>
+    <div class="x1">
+        <h1>Login form </h1>
+        <div class="big">
+            <form class="form" action="../home padge/index.html">
+                <img class="soraa" src="img/2.jpg" alt="">
+                <h1>Login</h1>
+                <div>
+                    <br> <input class="text" type="text" required placeholder="User Name" name="name" autofocus>
+                </div>
+                <div>
+                    <br> <input class="pass" type="password" required placeholder="Enter Password" name="pass"
+                        minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <input class="re" type="reset" value="Reset">
+                    <br>
+                    <input class="log" id="login" type="submit" value="login">
+                </div>
+
+                <a href="adress.ccc" class="a" target="blank" title="go to sign up"> sign up naw</a> <br>
+                <a href="mmm.ccc" class="a"  target="blank" title="go "> forgot password </a>
+            </form>
+        </div>
+    </div>
+    <script>
+        var login=document.getElementById("login");
+        login.addEventListener("click",function(){
+            alert("you are logged in");
+        })
+     </script>
+</body>
+
+</html>

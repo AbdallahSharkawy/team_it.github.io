@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="forget.css">
+    <title>forget password</title>
+</head>
+<h1>forget password</h1>
+
+<body>
+    <div class="divbig">
+        <div class="div1">
+            <form method="post" action="" class="forgetpassword">
+                <div class="x1">
+                    <label for="newPassword" class="l">New Password</label> <br>
+                    <input type="password" id="newPassword" name="newPassword" title="New password" />
+                </div><br>
+                <div class="x2">
+                    <label for="confirmPassword" class="l">Confirm Password</label><br>
+                    <input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" />
+                </div>
+                <p class="form-actions">
+                    <input type="submit" id="ChangePassword" value="Change Password" title="Change password" class="a" />
+                </p>
+        </div>
+    </div>
+    </form>
+    <script>
+       var ChangePassword=document.getElementById("ChangePassword");
+       ChangePassword.addEventListener("click",function(){
+           alert("password changed");
+       })
+    </script>
+</body>
+
+</html>
