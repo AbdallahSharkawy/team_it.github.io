@@ -1,0 +1,127 @@
+/* master page */
+.table {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-top: 650px;
+    margin-left: -345px;
+    width: 350px;
+}
+
+.title-home {
+    font-size: 30px;
+    background-image: url("imgs/خلفية\ لوجو.jpg");
+    border: 2px solid black;
+    text-align: center;
+    margin-top: -5px;
+    display: block;
+    width: 334px;
+}
+
+/* table of asia */
+
+.table-asia {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.asia {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+/* table of africa  */
+.africa {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+.table-africa {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-top: -1508px;
+    margin-left: 20px;
+}
+
+.line2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    background-image: url("imgs/خلفية\ لوجو.jpg");
+    margin-top: -10px;
+}
+
+.word2 {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.litter {
+    font-size: 30px;
+    background-image: url("imgs/خلفية\ لوجو.jpg");
+    border: 2px solid black;
+    text-align: center;
+    margin-top: -5px;
+    display: block;
+
+}
+
+/* table of europe  */
+.table-europe {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: -1119px;
+}
+
+.europe {
+    padding: 35px;
+    margin-top: -30px;
+}
+
+.video-europe {
+    height: 200px;
+    width: 360px;
+}
+
+/* table of  north america */
+.table-north {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: -2100px;
+}
+
+.north {
+    padding: 35px;
+    margin-top: -30px;
+}
+
+/* table of south america */
+.table-south {
+    display: block;
+    float: left;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: -1002px;
+}
+
+.south {
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: -20px;
+    width: 250px;
+    height: 250px;
+}

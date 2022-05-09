@@ -1,0 +1,166 @@
+/* home page */
+body {
+    background-color: white;
+    color: black;
+    background-image: url("imgs/سادة.jpg");
+    margin-right: 10px;
+    background-size: auto;
+}
+
+.world {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.img {
+    margin-top: -30px;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+}
+
+.list {
+    float: left;
+    border: 3px solid black;
+    margin-top: 70px;
+    padding: 3px;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 50px;
+    width: 330px;
+    margin-top: 30px;
+}
+
+.video {
+    width: 335px;
+    height: 250px;
+    margin-top: 30px;
+
+}
+
+div.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    margin-top: -45px;
+}
+
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #80808029;
+}
+
+
+/* asia page */
+.asia1 {
+    margin-right: 100px;
+}
+
+.asia2 {
+    height: 480px;
+    width: 640px;
+    margin-right: 100px;
+}
+
+
+.line-asia {
+    width: 600px;
+    height: 2px;
+    background-color: black;
+    margin-left: -400px;
+}
+
+hr {
+    margin-top: 20px;
+    width: 550px;
+
+}
+
+.parag {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("imgs/خلفية\ لوجو.jpg");
+    width: 800px;
+    letter-spacing: 1px;
+
+}
+
+.word {
+    width: 800px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 10px;
+    word-spacing: 5px;
+    background-color: #80808029;
+    letter-spacing: 1px;
+}
+
+
+.line {
+    margin-left: 580px;
+    height: 2px;
+    background-color: black;
+}
+
+.list2 {
+    width: 760px;
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 5px;
+    word-spacing: 5px;
+    background-color: #80808029;
+    letter-spacing: 1px;
+}
+
+div .left {
+    border-right: 2px solid black;
+}
+
+table tr {
+    border: 2px solid black;
+}
+
+.video-asia {
+    width: 330px;
+    height: 186px;
+    margin-bottom: -7px;
+    margin-top: 50px;
+}
+
+/* page Africa */
+.video-africa {
+    width: 330px;
+    height: 186px;
+    margin-bottom: -7px;
+}
+
+.africa2 {
+    margin-right: 300px;
+}
+
+.imgs {
+    margin-right: 100px;
+}
